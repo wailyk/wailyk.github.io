@@ -16,7 +16,7 @@ github_username:  wailyk
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-# linkedin_username: jekyll
+linkedin_username: kowaileet
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -24,7 +24,7 @@ github_username:  wailyk
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/wail.jpg
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
