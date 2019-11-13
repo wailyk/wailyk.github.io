@@ -24,15 +24,11 @@ linkedin_username: kowaileet
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/wail.jpg
+about_profile_image: images/Wail.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I am a Ph.D. student in the [Information Systems Group (ISG)](https://isg.ics.uci.edu/) at the [University of California, Irvine](https://uci.edu/) under the supervision of Professor [Michale J. Carey](https://www.ics.uci.edu/~mjcarey/). I'm also a research associate at the [Center for Complex Engineering Systems at KACST and MIT](http://cces.kacst.edu.sa/).
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+  My research targets the storage engines in Big Data Management Systems. In particular, I work on reducing the storage size to accelerate scan-based analytical workloads for document store systems.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -45,10 +41,10 @@ about_content: | # this will include new lines to allow paragraphs
 
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+#more_content: | # this will include new lines to allow paragraphs
+ # This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  #Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
