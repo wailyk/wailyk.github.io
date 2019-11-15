@@ -84,6 +84,22 @@ ul.icons a {
   box-shadow: inset 0 0 20px #636161;
 }
 
+
+.project-img {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+  border-radius: 0px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat, no-repeat;
+  -moz-box-shadow: inset 0 0 10px #636161;
+  -webkit-box-shadow: inset 0 0 10px #636161;
+  box-shadow: inset 0 0 10px #636161;
+}
+
 .into-text-1 {
   margin-top: 30px;
 }
@@ -94,16 +110,15 @@ ul.icons a {
   }
 }
 
-.projects-container, .experience-container, .education-container {
+.projects-container, .experience-container, .education-container, .awards-container {
   h3 {
     margin-bottom: 0;
   }
-  text-align: center;
 }
 
 .layout {
   margin-top: 3em;
-
+  margin-left: 2em;
   .details {
     text-align: left;
 
@@ -115,6 +130,7 @@ ul.icons a {
 
       b {
         font-weight: 500;
+        font-size: 11pt;
       }
     }
 
@@ -143,6 +159,7 @@ ul.icons a {
     h4 {
       margin-bottom: 0.1em;
       font-weight: 500;
+      font-size: 14pt;
 
       @media print {
         margin-bottom: 0.2em;
@@ -153,6 +170,27 @@ ul.icons a {
       }
     }
   }
+}
+
+.cite {
+  margin-bottom: 0.1em;
+  font-weight: 500;
+  font-size: 14pt;
+  display:inline-block;
+  width: 10px;
+  vertical-align:top;
+  margin-right: 1em;
+}
+
+.cite2 {
+  margin-bottom: 0.1em;
+  font-weight: 100;
+  font-size: 8pt;
+  display:inline-block;
+  width: -moz-calc(100% - 100px);
+  width: -webkit-calc(100% - 100px);
+  width: calc(100% - 100px);
+  height: 100%;
 }
 
 .layout-right, .layout-top-right {
@@ -203,8 +241,21 @@ ul.icons a {
 p.quote {
   font-size: 1.4em;
   font-style: italic;
-  padding: 1em 2.5em;
-  text-align: center;
+  padding: 0em 2.5em;
+  text-align: left;
+
+  @media print {
+    text-align: left;
+    padding: 0em 1em;
+    margin-top: 1em;
+  }
+}
+
+p.quote2 {
+  font-size: 1.4em;
+  font-style: italic;
+  padding: 0em 0em;
+  text-align: left;
 
   @media print {
     text-align: left;

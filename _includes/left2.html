@@ -1,0 +1,11 @@
+<div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-11 col-print-12 details">
+    <div class="cite">[{{ include.i }}]</div>
+    <div class="cite2">
+      {{ include.item.description | strip | markdownify }}
+    </div>
+  <!--     {%- if include.item.award and !include.item.award -%}
+        {{ include.item.award | strip }}
+      {%- endif -%} -->
+  </div>
+</div>

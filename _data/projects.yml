@@ -1,9 +1,32 @@
 # Project template
-- layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-  quote: >
-    Short overview of the project (optional)
+- layout: left
+  name: LSM-based Tuple Compaction Framework
+  # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  figure: images/storage.png 
+  # quote: >
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    We proposed a new mechanism to leverage LSM-lifecycle events to infer the
+    schema and semantically compact self-describing semi-structured records
+    automatically. We also introduced a novel semi-structured record physical
+    format for efficient construction and compaction. Using Apache AsterixDB, we
+    were able (combined with our implementation of page-level compression) to
+    reduce the storage size by 9.8x and improve the query performance by the same
+    factor. \\
+    **Paper**: _[Extended version in arXiv](https://arxiv.org/abs/1910.08185)_
+
+# Project template
+- layout: left
+  name: PAX for LSM-based Document Store Systems
+  # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  figure: images/pax.png 
+  # quote: >
+  description: | # this will include new lines to allow paragraphs
+    We are currently Investigating the feasibility [Partitioned Attributes
+    Across (PAX) page
+    format](https://www.pdl.cmu.edu/PDL-FTP/Database/pax.pdf) for LSM-based
+    document store systems as an alternative to the N-ary Storage Model (NSM
+    or slotted pages).  One disadvantage of the PAX page was the ability to do
+    in-place updates. As for LSM indexes, in-place updates are not permitted,
+    which makes PAX page format more appealing. 

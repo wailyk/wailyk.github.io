@@ -1,9 +1,29 @@
 # Education Template
 - layout: left
   name: University of California, Irvine
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
+  dates: 2017 - Present
+  qualification: PhD, Computer Science
   quote: >
-    Short institution or course description (optional)
+    Irvine, CA, USA
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    **Topics**: Storage and query optimization in LSM-based document store systems.\\
+    _Supervisor_: [Michael J. Carey](https://www.ics.uci.edu/~mjcarey/)
+
+- layout: left
+  name: University of California, Irvine
+  dates: 2011 - 2013
+  qualification: MSc, Computer Science
+  quote: >
+    Irvine, CA, USA
+  description: | # this will include new lines to allow paragraphs
+    **Thesis**: NUMA-aware Multicore Matrix Multiplication.\\
+    _Supervisor_: [Isaac D. Scherson](https://www.ics.uci.edu/~isaac/)
+
+- layout: left
+  name: King Saud University
+  dates: 2011 - 2013
+  qualification: BSc, Computer Science
+  quote: >
+    Riyadh, Saudi Arabia
+  # description: | # this will include new lines to allow paragraphs
+  #   **GPA**: 4.55/5.0 Second-degree Honor

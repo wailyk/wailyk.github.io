@@ -1,10 +1,31 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  company: Apache AsterixDB
+  link2: asterixdb.apache.org
+  job_title: Committer
+  dates: 2016–Present
   quote: >
-   Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of role
+   **Components**: Storage and Query Optimization
+
+# Experience template
+- layout: left
+  company: King Abdulaziz City for Science and Technology (KACST)
+  company2: Massachusetts Institute of Technology (MIT)
+  link2: cces.kacst.edu.sa
+  job_title: Research Associate <br> Research Affiliate
+  dates: 2014–Present
+  quote: |
+   _Center for Complex Engineering Systems (CCES) – Institute for Data, Systems and Society (IDSS)_\\
+   **Role**: Developing tools capable of harnessing and analyzing large-scale data\\
+   **Projects**: [AsterixDB-Spark Connector](https://github.com/wailyk/asterixdb-spark-connector), CityDynamics, Connected Intelligence Platform, Integrated Transportation Systems, Innovation Space 
+
+# Experience template
+- layout: left
+  company: Advanced Electronics Company (AEC)
+  # link2: aecl.com
+  job_title: Associate Software Engineer
+  dates: 2008–2009
+  quote: |
+   _Research and Development Department (R&D)_\\
+   **Role**: Developing components that connect electric and water smart-meters to the data collection units\\
+   **Projects**: ADDAD4, Water Smart Meter 

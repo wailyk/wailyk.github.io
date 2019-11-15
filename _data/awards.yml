@@ -1,0 +1,21 @@
+# Experience template
+- layout: left
+  # company: Ph.D Schoalrship
+  award_title: Ph.D Schoalrship
+  dates: 2017–2021
+  description: |
+   Awarded full graduate scholarship from the King Abdulaziz City for Science and Technology.
+
+- layout: left
+  # company: MSc Schoalrship
+  award_title: MSc Schoalrship
+  dates: 2010-2013
+  description: |
+   Awarded full graduate scholarship from King Abdullah Scholarship Program.
+
+- layout: left
+  # company: MSc Schoalrship
+  award_title: Second Class Honor
+  dates: 2004-2008
+  description: |
+   Awarded Second Class Honor for high GPA from King Saud University
