@@ -1,7 +1,7 @@
 # Experience template
 - layout: left2
   description: |
-   **W. Alkowaileet**, S. Alsubaiee & M. J. Carey. An LSM-based Tuple Compaction Framework for Apache AsterixDB. _under review_, 2019.
+   **W. Alkowaileet**, S. Alsubaiee & M. J. Carey. An LSM-based Tuple Compaction Framework for Apache AsterixDB. _to appear in VLDB_, 2020.
    ([**pdf**: Extended Version](https://arxiv.org/abs/1910.08185))
 
 - layout: left2
