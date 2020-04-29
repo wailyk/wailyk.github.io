@@ -1,17 +1,25 @@
 # Experience template
 - layout: left2
   description: |
-   **W. Alkowaileet**, S. Alsubaiee & M. J. Carey. An LSM-based Tuple Compaction Framework for Apache AsterixDB. _under review_, 2019.
-   ([**pdf**: Extended Version](https://arxiv.org/abs/1910.08185))
+   **W. Alkowaileet**, S. Alsubaiee & M. J. Carey.\\
+   [**An LSM-based Tuple Compaction Framework for Apache AsterixDB** - Extended Version](https://arxiv.org/abs/1910.08185) \\
+   _To appear in VLDB_, 2020.
+   
 
 - layout: left2
   description: |
-   **W. Alkowaileet**, S. Alsubaiee, M. J. Carey, C. Li, P. Sinthong & W. Wang. End-to-End Machine Learning with Apache AsterixDB. _In Proceedings of the Second Workshop on Data Management for End-To-End Machine Learning_, 2018. ([**pdf**](https://chenli.ics.uci.edu/files/deem2018-paper.pdf))
+   **W. Alkowaileet**, S. Alsubaiee, M. J. Carey, C. Li, P. Sinthong & W. Wang. \\
+   [**End-to-End Machine Learning with Apache AsterixDB**](https://chenli.ics.uci.edu/files/deem2018-paper.pdf) \\
+   _In Proceedings of the Second Workshop on Data Management for End-To-End Machine Learning_, 2018.
 
 - layout: left2
   description: |
-   **W. Alkowaileet**, S. Alsubaiee, M. J. Carey, T. Westmann & Y. Bu. Large-scale Complex Analytics on Semi-structured Datasets using AsterixDB and Spark. _PVLDB_, 9(13), 1585-1588, 2016 (Demo) ([**pdf**](http://www.vldb.org/pvldb/vol9/p1585-alkowaileet.pdf))
+   **W. Alkowaileet**, S. Alsubaiee, M. J. Carey, T. Westmann & Y. Bu. \\
+   [**Large-scale Complex Analytics on Semi-structured Datasets using AsterixDB and Spark**](http://www.vldb.org/pvldb/vol9/p1585-alkowaileet.pdf) \\
+   _PVLDB_, 9(13), 1585-1588, 2016 (Demo)
 
 - layout: left2
   description: |
-   W. Alkowaileet, D. Carrillo-Cisneros, D. Lim & I. D. Scherson. NUMA-aware Multicore Matrix Multiplication. _Parallel Processing Letters_, 24(04), 1450006, 2014 ([**pdf**](http://editorial.worldscinet.com/ppl/editorial/paper/903437.pdf))
+   **W. Alkowaileet**, D. Carrillo-Cisneros, D. Lim & I. D. Scherson. \\
+   [**NUMA-aware Multicore Matrix Multiplication**](http://editorial.worldscinet.com/ppl/editorial/paper/903437.pdf) \\
+   _Parallel Processing Letters_, 24(04), 1450006, 2014 

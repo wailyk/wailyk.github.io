@@ -22,11 +22,13 @@ linkedin_username: kowaileet
 # youtube_username: jekyll
 # googleplus_username: +jekyll
 
+google_analytics: "UA-164842083-1"
+
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/Wail.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a Ph.D. student in the [Information Systems Group (ISG)](https://isg.ics.uci.edu/) at the [University of California, Irvine](https://uci.edu/) under the supervision of Professor [Michale J. Carey](https://www.ics.uci.edu/~mjcarey/). I'm also a research associate at the [Center for Complex Engineering Systems at KACST and MIT](http://cces.kacst.edu.sa/).
+  I am a Ph.D. candidate in the [Information Systems Group (ISG)](https://isg.ics.uci.edu/) at the [University of California, Irvine](https://uci.edu/) under the supervision of Professor [Michale J. Carey](https://www.ics.uci.edu/~mjcarey/). I'm also a research associate at the [Center for Complex Engineering Systems at KACST and MIT](http://cces.kacst.edu.sa/).
 
   My research targets the storage engines in Big Data Management Systems. In particular, I work on reducing the storage size to accelerate scan-based analytical workloads for document store systems.
 
@@ -46,8 +48,10 @@ about_content: | # this will include new lines to allow paragraphs
 
   #Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
+
+
 # Footer
-footer_show_references: true
+footer_show_references: false
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
