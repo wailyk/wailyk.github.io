@@ -2,15 +2,15 @@
 - layout: left2
   description: |
    **W. Alkowaileet**, S. Alsubaiee & M. J. Carey.\\
-   [**An LSM-based Tuple Compaction Framework for Apache AsterixDB** - Extended Version](https://arxiv.org/abs/1910.08185) \\
-   _To appear in VLDB_, 2020.
+   [**An LSM-based Tuple Compaction Framework for Apache AsterixDB**](http://www.vldb.org/pvldb/vol13/p1388-alkowaileet.pdf) \\
+   _PVLDV_, 13(9), 1388-1400, 2020, [_Extended Version_](https://arxiv.org/abs/1910.08185)
    
 
 - layout: left2
   description: |
    **W. Alkowaileet**, S. Alsubaiee, M. J. Carey, C. Li, P. Sinthong & W. Wang. \\
    [**End-to-End Machine Learning with Apache AsterixDB**](https://chenli.ics.uci.edu/files/deem2018-paper.pdf) \\
-   _In Proceedings of the Second Workshop on Data Management for End-To-End Machine Learning_, 2018.
+   _In Proceedings of the Second Workshop on Data Management for End-To-End Machine Learning_, 2018
 
 - layout: left2
   description: |
