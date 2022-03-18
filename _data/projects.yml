@@ -17,16 +17,31 @@
 
 # Project template
 - layout: left
-  name: PAX for LSM-based Document Store Systems
+  name: Columnar Formats for Schemaless LSM-based Document Stores
+ 
   # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
   # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-  figure: images/pax.png 
+  figure: images/amax.png 
   # quote: >
   description: | # this will include new lines to allow paragraphs
-    We are currently Investigating the feasibility [Partitioned Attributes
-    Across (PAX) page
-    format](https://www.pdl.cmu.edu/PDL-FTP/Database/pax.pdf) for LSM-based
-    document store systems as an alternative to the N-ary Storage Model (NSM
-    or slotted pages).  One disadvantage of the PAX page was the ability to do
-    in-place updates. As for LSM indexes, in-place updates are not permitted,
-    which makes PAX page format more appealing. 
+    In this project, we propose several techniques based on piggy-backing on Log-Structured 
+    Merge (LSM) tree events and tailored to document stores to store document data in a 
+    columnar layout. We first extend the Dremel format, a popular on-disk columnar format 
+    for semi-structured data, to comply with document stores' flexible data model. 
+    We then introduce two columnar layouts for organizing and storing data in LSM-based storage
+    **Paper**: _[Extended version in arXiv](https://arxiv.org/abs/2111.11517)_
+
+  # Project template
+- layout: left
+  name: A Code Generation Technique for Schema-on-read Databases using Truffle
+ 
+  # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  figure: images/code_gen.png 
+  # quote: >
+  description: | # this will include new lines to allow paragraphs
+    In this project, We shed light on the possibility of using query compilation techniques
+    for document stores, where value types are not known until runtime. We utilize the Oracle 
+    Truffle to implement an internal language for processing data stored in a Java-based 
+    document store. Even though we only translate part of a query plan, our evaluations show 
+    a tremendous improvement over AsterixDB’s Vectorized model (or batch-at-a-time model).

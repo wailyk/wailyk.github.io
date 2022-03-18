@@ -1,5 +1,13 @@
 # Experience template
 - layout: left
+  company: Couchbase Inc.
+  link2: www.couchbase.com
+  job_title: Software Engineer Intern
+  dates: June 2021 - Septemeber 2021
+  quote: >
+   **Task**: Added the support to query Parquet files from various sources (e.g., S3) in Couchbase Analytics with the support to pushdown field accesses.
+
+- layout: left
   company: Apache AsterixDB
   link2: asterixdb.apache.org
   job_title: Committer

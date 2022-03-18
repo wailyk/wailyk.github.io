@@ -1,9 +1,15 @@
 # Experience template
 - layout: left2
   description: |
+   **W. Alkowaileet** & M. J. Carey.\\
+   [**Columnar Formats for Schemaless LSM-based Document Stores** - Extended Version](https://arxiv.org/abs/2111.11517) \\
+   _Under Revision_, 2022.
+
+- layout: left2
+  description: |
    **W. Alkowaileet**, S. Alsubaiee & M. J. Carey.\\
    [**An LSM-based Tuple Compaction Framework for Apache AsterixDB** - Extended Version](https://arxiv.org/abs/1910.08185) \\
-   _To appear in VLDB_, 2020.
+   _[PVLDB 13(9)](http://www.vldb.org/pvldb/vol13/p1388-alkowaileet.pdf)_, 2020.
    
 
 - layout: left2
