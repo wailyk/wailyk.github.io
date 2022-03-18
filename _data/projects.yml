@@ -26,8 +26,8 @@
   description: | # this will include new lines to allow paragraphs
     In this project, we propose several techniques based on piggy-backing on Log-Structured 
     Merge (LSM) tree events and tailored to document stores to store document data in a 
-    columnar layout. We first extend the [**Dremel format**](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf), a popular on-disk columnar format 
-    for semi-structured data, to comply with document stores' flexible data model. 
+    columnar layout. We first extend the [**Dremel format**](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf), 
+    a popular on-disk columnar format for semi-structured data, to comply with document stores' flexible data model. 
     We then introduce two columnar layouts for organizing and storing data in LSM-based storage.\\
     **Paper**: _[Extended version in arXiv](https://arxiv.org/abs/2111.11517)_
 
