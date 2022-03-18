@@ -41,8 +41,8 @@
   # quote: >
   description: | # this will include new lines to allow paragraphs
     In this project, We shed light on the possibility of using query compilation techniques
-    for document stores, where value types are not known until runtime. We utilize the **[Oracle 
-    Truffle](https://github.com/oracle/graal/tree/master/truffle)** to implement an internal 
+    for document stores, where value types are not known until runtime. We utilize the [**Oracle 
+    Truffle**](https://github.com/oracle/graal/tree/master/truffle) to implement an internal 
     language for processing data stored in a Java-based document store. Even though we only 
     translate part of a query plan, our evaluations show a tremendous improvement over AsterixDB’s 
     Vectorized model (or batch-at-a-time model).
