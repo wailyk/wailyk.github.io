@@ -6,7 +6,7 @@
   quote: >
     Irvine, CA, USA
   description: | # this will include new lines to allow paragraphs
-    **Topics**: Storage and query optimization in LSM-based document store systems.\\
+    **Thesis**: Towards Analytics-optimized Document Stores\\
     _Supervisor_: [Michael J. Carey](https://www.ics.uci.edu/~mjcarey/)
 
 - layout: left
@@ -16,7 +16,7 @@
   quote: >
     Irvine, CA, USA
   description: | # this will include new lines to allow paragraphs
-    **Thesis**: NUMA-aware Multicore Matrix Multiplication.\\
+    **Thesis**: NUMA-aware Multicore Matrix Multiplication\\
     _Supervisor_: [Isaac D. Scherson](https://www.ics.uci.edu/~isaac/)
 
 - layout: left
