@@ -2,8 +2,8 @@
 - layout: left2
   description: |
    **W. Alkowaileet** & M. J. Carey.\\
-   [**Columnar Formats for Schemaless LSM-based Document Stores** - Extended Version](https://arxiv.org/abs/2111.11517) \\
-   To appear in VLDB, 2022.
+   [**Columnar Formats for Schemaless LSM-based Document Stores**](https://www.vldb.org/pvldb/vol15/p2085-alkowaileet.pdf) \\
+   _PVLDB_, 15(10), 2085-2097, 2022, [**_Extended Version_**](https://arxiv.org/abs/2111.11517)
 
 - layout: left2
   description: |

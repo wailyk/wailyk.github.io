@@ -28,9 +28,9 @@ google_analytics: "UA-164842083-1"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/Wail.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a Ph.D. candidate in the [Information Systems Group (ISG)](https://isg.ics.uci.edu/) at the [University of California, Irvine](https://uci.edu/) under the supervision of Professor [Michale J. Carey](https://www.ics.uci.edu/~mjcarey/). I'm also a research associate at the [Center for Complex Engineering Systems at KACST and MIT](http://cces.kacst.edu.sa/).
+  I am a Senior Software Engineer at [Couchbase Inc.](https://www.couchbase.com).
 
-  My research targets the storage engines in Big Data Management Systems. In particular, I work on reducing the storage size to accelerate scan-based analytical workloads for document store systems.
+  My work targets the storage engines in Big Data Management Systems. In particular, I work on reducing the storage size to accelerate scan-based analytical workloads for document store systems.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
