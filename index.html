@@ -43,18 +43,6 @@
             </a>
           </li>
           <li>
-            <a href="#projects" class="nav-link">
-              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
-              <span>Projects</span>
-            </a>
-          </li>
-          <li>
-            <a href="#publications" class="nav-link">
-              <svg viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z"/></svg>
-              <span>Publications</span>
-            </a>
-          </li>
-          <li>
             <a href="#experience" class="nav-link">
               <svg viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/></svg>
               <span>Experience</span>
@@ -64,6 +52,18 @@
             <a href="#education" class="nav-link">
               <svg viewBox="0 0 24 24"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5.18 11.5L12 15.22l6.82-3.72V15c0 1.66-3.05 3-6.82 3s-6.82-1.34-6.82-3v-3.5z"/></svg>
               <span>Education</span>
+            </a>
+          </li>
+          <li>
+            <a href="#publications" class="nav-link">
+              <svg viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z"/></svg>
+              <span>Publications</span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
+              <span>Projects</span>
             </a>
           </li>
           <li>
@@ -116,187 +116,6 @@
             <p>I am a Senior Software Engineer at <a href="https://www.couchbase.com" target="_blank">Couchbase Inc.</a></p>
             <p>My work targets the storage engines in Big Data Management Systems. In particular, I work on reducing storage size to accelerate scan-based analytical workloads for document store systems.</p>
           </div>
-        </div>
-      </section>
-      
-      <!-- Projects Section -->
-      <section id="projects" class="section">
-        <h2 class="section-title">
-          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
-          <span>Research Projects</span>
-        </h2>
-        <div class="projects-grid">
-          
-          <!-- Project 1 -->
-          <article class="project-card">
-            <div class="project-img-container">
-              <img class="project-img" src="images/compaction.png" alt="LSM-based Tuple Compaction">
-            </div>
-            <div class="project-body">
-              <h3 class="project-title">LSM-based Tuple Compaction Framework</h3>
-              <p class="project-desc">
-                Proposed a new mechanism to leverage Log-Structured Merge (LSM) lifecycle events to automatically infer schema and semantically compact self-describing semi-structured records. Implemented in Apache AsterixDB along with page-level compression, achieving a 9.8x reduction in storage size and query speedups of the same factor.
-              </p>
-              <div class="project-links">
-                <a href="https://arxiv.org/abs/1910.08185" target="_blank" class="btn-pill">
-                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
-                  <span>Extended Paper</span>
-                </a>
-              </div>
-            </div>
-          </article>
-          
-          <!-- Project 2 -->
-          <article class="project-card">
-            <div class="project-img-container">
-              <img class="project-img" src="images/columnar.png" alt="Columnar Formats for Document Stores">
-            </div>
-            <div class="project-body">
-              <h3 class="project-title">Columnar Formats for Schemaless LSM Document Stores</h3>
-              <p class="project-desc">
-                Extended the Dremel columnar format to support document stores' flexible, nested data model. Designed and implemented two layouts for organizing and storing schemaless data in LSM-based storage systems, optimizing query scans over nested, sparse document fields.
-              </p>
-              <div class="project-links">
-                <a href="https://arxiv.org/abs/2111.11517" target="_blank" class="btn-pill">
-                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
-                  <span>Extended Paper</span>
-                </a>
-              </div>
-            </div>
-          </article>
-          
-          <!-- Project 3 -->
-          <article class="project-card">
-            <div class="project-img-container">
-              <img class="project-img" src="images/codegen.png" alt="Code Generation using Truffle">
-            </div>
-            <div class="project-body">
-              <h3 class="project-title">Code Generation for Schema-on-Read Databases</h3>
-              <p class="project-desc">
-                Explored runtime query compilation techniques for document stores where value types are unknown until query time. Leveraged Oracle Truffle to compile execution sub-trees in a Java-based document store, showing major speedups over standard vectorized batch processing models.
-              </p>
-            </div>
-          </article>
-          
-        </div>
-      </section>
-      
-      <!-- Publications Section -->
-      <section id="publications" class="section">
-        <h2 class="section-title">
-          <svg viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z"/></svg>
-          <span>Publications</span>
-        </h2>
-        <div class="publications-list">
-          
-          <!-- Pub 1 -->
-          <article class="pub-card">
-            <div class="pub-icon-wrapper">
-              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
-            </div>
-            <div class="pub-content">
-              <p class="pub-authors"><strong>W. Alkowaileet</strong> & M. J. Carey.</p>
-              <h3 class="pub-title">Columnar Formats for Schemaless LSM-based Document Stores</h3>
-              <div class="pub-venue">
-                <span>PVLDB, 15(10), 2085-2097, 2022</span>
-              </div>
-              <div class="pub-links">
-                <a href="https://www.vldb.org/pvldb/vol15/p2085-alkowaileet.pdf" target="_blank" class="pub-link">
-                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
-                  <span>Paper</span>
-                </a>
-                <a href="https://arxiv.org/abs/2111.11517" target="_blank" class="pub-link">
-                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
-                  <span>Extended Version</span>
-                </a>
-              </div>
-            </div>
-          </article>
-          
-          <!-- Pub 2 -->
-          <article class="pub-card">
-            <div class="pub-icon-wrapper">
-              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
-            </div>
-            <div class="pub-content">
-              <p class="pub-authors"><strong>W. Alkowaileet</strong>, S. Alsubaiee & M. J. Carey.</p>
-              <h3 class="pub-title">An LSM-based Tuple Compaction Framework for Apache AsterixDB</h3>
-              <div class="pub-venue">
-                <span>PVLDB, 13(9), 1388-1400, 2020</span>
-              </div>
-              <div class="pub-links">
-                <a href="http://www.vldb.org/pvldb/vol13/p1388-alkowaileet.pdf" target="_blank" class="pub-link">
-                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
-                  <span>Paper</span>
-                </a>
-                <a href="https://arxiv.org/abs/1910.08185" target="_blank" class="pub-link">
-                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
-                  <span>Extended Version</span>
-                </a>
-              </div>
-            </div>
-          </article>
-          
-          <!-- Pub 3 -->
-          <article class="pub-card">
-            <div class="pub-icon-wrapper">
-              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
-            </div>
-            <div class="pub-content">
-              <p class="pub-authors"><strong>W. Alkowaileet</strong>, S. Alsubaiee, M. J. Carey, C. Li, P. Sinthong & W. Wang.</p>
-              <h3 class="pub-title">End-to-End Machine Learning with Apache AsterixDB</h3>
-              <div class="pub-venue">
-                <span>In Proceedings of the Second Workshop on Data Management for End-To-End Machine Learning, 2018</span>
-              </div>
-              <div class="pub-links">
-                <a href="https://chenli.ics.uci.edu/files/deem2018-paper.pdf" target="_blank" class="pub-link">
-                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
-                  <span>Paper</span>
-                </a>
-              </div>
-            </div>
-          </article>
-          
-          <!-- Pub 4 -->
-          <article class="pub-card">
-            <div class="pub-icon-wrapper">
-              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
-            </div>
-            <div class="pub-content">
-              <p class="pub-authors"><strong>W. Alkowaileet</strong>, S. Alsubaiee, M. J. Carey, T. Westmann & Y. Bu.</p>
-              <h3 class="pub-title">Large-scale Complex Analytics on Semi-structured Datasets using AsterixDB and Spark</h3>
-              <div class="pub-venue">
-                <span>PVLDB, 9(13), 1585-1588, 2016 (Demo)</span>
-              </div>
-              <div class="pub-links">
-                <a href="http://www.vldb.org/pvldb/vol9/p1585-alkowaileet.pdf" target="_blank" class="pub-link">
-                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
-                  <span>Paper</span>
-                </a>
-              </div>
-            </div>
-          </article>
-          
-          <!-- Pub 5 -->
-          <article class="pub-card">
-            <div class="pub-icon-wrapper">
-              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
-            </div>
-            <div class="pub-content">
-              <p class="pub-authors"><strong>W. Alkowaileet</strong>, D. Carrillo-Cisneros, D. Lim & I. D. Scherson.</p>
-              <h3 class="pub-title">NUMA-aware Multicore Matrix Multiplication</h3>
-              <div class="pub-venue">
-                <span>Parallel Processing Letters, 24(04), 1450006, 2014</span>
-              </div>
-              <div class="pub-links">
-                <a href="http://editorial.worldscinet.com/ppl/editorial/paper/903437.pdf" target="_blank" class="pub-link">
-                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
-                  <span>Paper</span>
-                </a>
-              </div>
-            </div>
-          </article>
-          
         </div>
       </section>
       
@@ -477,6 +296,187 @@
               <div class="timeline-desc">
                 <p>Graduated with a GPA of 4.55/5.0, earning Second Class Honors.</p>
               </div>
+            </div>
+          </article>
+          
+        </div>
+      </section>
+      
+      <!-- Publications Section -->
+      <section id="publications" class="section">
+        <h2 class="section-title">
+          <svg viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z"/></svg>
+          <span>Publications</span>
+        </h2>
+        <div class="publications-list">
+          
+          <!-- Pub 1 -->
+          <article class="pub-card">
+            <div class="pub-icon-wrapper">
+              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+            </div>
+            <div class="pub-content">
+              <p class="pub-authors"><strong>W. Alkowaileet</strong> & M. J. Carey.</p>
+              <h3 class="pub-title">Columnar Formats for Schemaless LSM-based Document Stores</h3>
+              <div class="pub-venue">
+                <span>PVLDB, 15(10), 2085-2097, 2022</span>
+              </div>
+              <div class="pub-links">
+                <a href="https://www.vldb.org/pvldb/vol15/p2085-alkowaileet.pdf" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                  <span>Paper</span>
+                </a>
+                <a href="https://arxiv.org/abs/2111.11517" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                  <span>Extended Version</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          
+          <!-- Pub 2 -->
+          <article class="pub-card">
+            <div class="pub-icon-wrapper">
+              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+            </div>
+            <div class="pub-content">
+              <p class="pub-authors"><strong>W. Alkowaileet</strong>, S. Alsubaiee & M. J. Carey.</p>
+              <h3 class="pub-title">An LSM-based Tuple Compaction Framework for Apache AsterixDB</h3>
+              <div class="pub-venue">
+                <span>PVLDB, 13(9), 1388-1400, 2020</span>
+              </div>
+              <div class="pub-links">
+                <a href="http://www.vldb.org/pvldb/vol13/p1388-alkowaileet.pdf" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                  <span>Paper</span>
+                </a>
+                <a href="https://arxiv.org/abs/1910.08185" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                  <span>Extended Version</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          
+          <!-- Pub 3 -->
+          <article class="pub-card">
+            <div class="pub-icon-wrapper">
+              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+            </div>
+            <div class="pub-content">
+              <p class="pub-authors"><strong>W. Alkowaileet</strong>, S. Alsubaiee, M. J. Carey, C. Li, P. Sinthong & W. Wang.</p>
+              <h3 class="pub-title">End-to-End Machine Learning with Apache AsterixDB</h3>
+              <div class="pub-venue">
+                <span>In Proceedings of the Second Workshop on Data Management for End-To-End Machine Learning, 2018</span>
+              </div>
+              <div class="pub-links">
+                <a href="https://chenli.ics.uci.edu/files/deem2018-paper.pdf" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                  <span>Paper</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          
+          <!-- Pub 4 -->
+          <article class="pub-card">
+            <div class="pub-icon-wrapper">
+              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+            </div>
+            <div class="pub-content">
+              <p class="pub-authors"><strong>W. Alkowaileet</strong>, S. Alsubaiee, M. J. Carey, T. Westmann & Y. Bu.</p>
+              <h3 class="pub-title">Large-scale Complex Analytics on Semi-structured Datasets using AsterixDB and Spark</h3>
+              <div class="pub-venue">
+                <span>PVLDB, 9(13), 1585-1588, 2016 (Demo)</span>
+              </div>
+              <div class="pub-links">
+                <a href="http://www.vldb.org/pvldb/vol9/p1585-alkowaileet.pdf" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                  <span>Paper</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          
+          <!-- Pub 5 -->
+          <article class="pub-card">
+            <div class="pub-icon-wrapper">
+              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+            </div>
+            <div class="pub-content">
+              <p class="pub-authors"><strong>W. Alkowaileet</strong>, D. Carrillo-Cisneros, D. Lim & I. D. Scherson.</p>
+              <h3 class="pub-title">NUMA-aware Multicore Matrix Multiplication</h3>
+              <div class="pub-venue">
+                <span>Parallel Processing Letters, 24(04), 1450006, 2014</span>
+              </div>
+              <div class="pub-links">
+                <a href="http://editorial.worldscinet.com/ppl/editorial/paper/903437.pdf" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                  <span>Paper</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          
+        </div>
+      </section>
+      
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <h2 class="section-title">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
+          <span>Research Projects</span>
+        </h2>
+        <div class="projects-grid">
+          
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-img-container">
+              <img class="project-img" src="images/compaction.png" alt="LSM-based Tuple Compaction">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">LSM-based Tuple Compaction Framework</h3>
+              <p class="project-desc">
+                Proposed a new mechanism to leverage Log-Structured Merge (LSM) lifecycle events to automatically infer schema and semantically compact self-describing semi-structured records. Implemented in Apache AsterixDB along with page-level compression, achieving a 9.8x reduction in storage size and query speedups of the same factor.
+              </p>
+              <div class="project-links">
+                <a href="https://arxiv.org/abs/1910.08185" target="_blank" class="btn-pill">
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                  <span>Extended Paper</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-img-container">
+              <img class="project-img" src="images/columnar.png" alt="Columnar Formats for Document Stores">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Columnar Formats for Schemaless LSM Document Stores</h3>
+              <p class="project-desc">
+                Extended the Dremel columnar format to support document stores' flexible, nested data model. Designed and implemented two layouts for organizing and storing schemaless data in LSM-based storage systems, optimizing query scans over nested, sparse document fields.
+              </p>
+              <div class="project-links">
+                <a href="https://arxiv.org/abs/2111.11517" target="_blank" class="btn-pill">
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                  <span>Extended Paper</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-img-container">
+              <img class="project-img" src="images/codegen.png" alt="Code Generation using Truffle">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Code Generation for Schema-on-Read Databases</h3>
+              <p class="project-desc">
+                Explored runtime query compilation techniques for document stores where value types are unknown until query time. Leveraged Oracle Truffle to compile execution sub-trees in a Java-based document store, showing major speedups over standard vectorized batch processing models.
+              </p>
             </div>
           </article>
           
