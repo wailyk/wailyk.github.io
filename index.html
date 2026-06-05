@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Wail Alkowaileet | Senior Software Engineer</title>
+
+  <meta name="description"
+    content="Personal website of Wail Alkowaileet, a Senior Software Engineer specializing in big data storage engines, document stores, and database optimizations.">
+  <meta name="author" content="Wail Alkowaileet">
+
+  <!-- OG Metadata -->
+  <meta property="og:title" content="Wail Alkowaileet | Senior Software Engineer">
+  <meta property="og:description"
+    content="Personal website of Wail Alkowaileet. Research and development in Big Data storage engines, LSM-trees, and analytics-optimized document stores.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wail.kowaileet.com/">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/Wail.jpg">
+</head>
+
+<body>
+
+  <div class="app-container">
+
+    <!-- Sidebar Header -->
+    <aside class="sidebar">
+      <div class="sidebar-profile">
+        <div class="profile-avatar-container">
+          <img class="profile-avatar" src="images/Wail.jpg" alt="Wail Alkowaileet">
+        </div>
+        <h1 class="profile-name">Wail Alkowaileet</h1>
+        <p class="profile-title">Consultant / General Manager at NCAI @ SDAIA</p>
+      </div>
+
+      <!-- Sticky Navigation -->
+      <nav>
+        <ul class="nav-menu">
+          <li>
+            <a href="#about" class="nav-link active">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+              </svg>
+              <span>About Me</span>
+            </a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-link">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" />
+              </svg>
+              <span>Experience</span>
+            </a>
+          </li>
+          <li>
+            <a href="#education" class="nav-link">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5.18 11.5L12 15.22l6.82-3.72V15c0 1.66-3.05 3-6.82 3s-6.82-1.34-6.82-3v-3.5z" />
+              </svg>
+              <span>Education</span>
+            </a>
+          </li>
+          <li>
+            <a href="#publications" class="nav-link">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z" />
+              </svg>
+              <span>Publications</span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z" />
+              </svg>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="#awards" class="nav-link">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v3c0 2.24 1.55 4.15 3.61 4.68C7.5 16.27 10 18 10 18v3h4v-3s2.5-1.73 3.39-3.32C19.45 14.15 21 12.24 21 10V7c0-1.1-.9-2-2-2zm-14 5V7h2v3c0 1.48-1.07 2.71-2 3v-3zm14 0c-.93-.29-2-1.52-2-3V7h2v3z" />
+              </svg>
+              <span>Awards</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Contact & Socials -->
+      <div class="sidebar-footer">
+        <div class="contact-info">
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+            </svg>
+            <a href="mailto:wail@kowaileet.com">wail@kowaileet.com</a>
+          </div>
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+            </svg>
+            <span>Riyadh, Saudi Arabia</span>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/wailyk" target="_blank" class="social-btn" aria-label="GitHub Profile">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/kowaileet" target="_blank" class="social-btn"
+            aria-label="LinkedIn Profile">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+            </svg>
+          </a>
+          <a href="https://twitter.com/kowaileet" target="_blank" class="social-btn" aria-label="Twitter Profile">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <!-- About Section -->
+      <section id="about" class="section">
+        <h2 class="section-title">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+          </svg>
+          <span>About Me</span>
+        </h2>
+        <div class="about-card">
+          <div class="about-text">
+            <p>I build systems and lead teams that make massive data move fast and run efficiently.</p>
+            <p>Currently, I'm a Consultant and General Manager at the <strong>National Center for AI (SDAIA)</strong>,
+              directing engineering teams on petabyte-scale data pipelines and data quality. Before that, I spent years
+              in the database trenches at <a href="https://www.couchbase.com" target="_blank">Couchbase</a> (as
+              Principal Software Engineer) and Apache AsterixDB, designing hyper-efficient storage engines and query
+              optimization primitives. I thrive at the intersection of deep-tech systems engineering, scalable
+              architecture, and high-performance team leadership.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="section">
+        <h2 class="section-title">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" />
+          </svg>
+          <span>Professional Experience</span>
+        </h2>
+        <div class="timeline">
+
+          <!-- Exp 1 -->
+          <article class="timeline-card">
+            <div class="timeline-meta">
+              <div class="timeline-dates">Aug 2024 - Present</div>
+              <div class="timeline-location">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+                <span>Riyadh, Saudi Arabia</span>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <h3>Consultant / General Manager</h3>
+              <div class="timeline-org">National Center for AI @ SDAIA</div>
+              <div class="timeline-desc">
+                <p>Returned to the consumer side to lead and supervise a talented engineering team handling
+                  petabyte-scale data projects. Responsible for driving the center's data quality initiatives and
+                  optimizing data processing and wrangling pipelines that serve a wide range of analysts and scientists
+                  across different domains.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Exp 2 -->
+          <article class="timeline-card">
+            <div class="timeline-meta">
+              <div class="timeline-dates">Aug 2022 - Aug 2024</div>
+              <div class="timeline-location">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+                <span>Santa Clara, CA</span>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <h3 style="font-size: 1.3rem; margin-bottom: 0.25rem;">Couchbase Inc.</h3>
+              <div class="timeline-org" style="margin-bottom: 1.5rem;">Database Storage & Query Engine Optimization
+              </div>
+
+              <!-- Role 1 -->
+              <div class="timeline-subrole"
+                style="margin-bottom: 1.5rem; border-left: 2px solid var(--primary); padding-left: 1rem;">
+                <h4 style="font-size: 1.1rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;">
+                  Principal Software Engineer</h4>
+                <div style="font-size: 0.85rem; color: var(--primary); font-weight: 600; margin-bottom: 0.5rem;">Mar
+                  2024 - Aug 2024</div>
+                <div class="timeline-desc">
+                  <p>Worked on optimizations for the query and storage engines of the Big Data analytical platform.
+                    Building advanced scanning, pruning, and transactional storage primitives.</p>
+                </div>
+              </div>
+
+              <!-- Role 2 -->
+              <div class="timeline-subrole" style="border-left: 2px solid var(--border-color); padding-left: 1rem;">
+                <h4 style="font-size: 1.1rem; font-weight: 700; color: var(--text-secondary); margin-bottom: 0.25rem;">
+                  Senior Software Engineer</h4>
+                <div style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; margin-bottom: 0.5rem;">Aug
+                  2022 - Mar 2024</div>
+                <div class="timeline-desc">
+                  <p>Contributed to analytical query and storage optimizations for document stores, improving scan
+                    throughput and data layout.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Exp 3 -->
+          <article class="timeline-card">
+            <div class="timeline-meta">
+              <div class="timeline-dates">June 2021 - Sep 2021</div>
+              <div class="timeline-location">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+                <span>Santa Clara, CA</span>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <h3>Software Engineer Intern</h3>
+              <div class="timeline-org">Couchbase Inc.</div>
+              <div class="timeline-desc">
+                <p>Added native query capabilities for Parquet files from external cloud storage engines (e.g. AWS S3)
+                  in Couchbase Analytics. Developed projection and filter pushdown logic to minimize network roundtrips.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Exp 4 -->
+          <article class="timeline-card">
+            <div class="timeline-meta">
+              <div class="timeline-dates">2016 - Present</div>
+              <div class="timeline-location">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+                <span>Open Source</span>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <h3>Program Manager Committee (PMC)</h3>
+              <div class="timeline-org">Apache AsterixDB</div>
+              <div class="timeline-desc">
+                <p>Actively contributing to open-source database internals, with focus on LSM storage engines, columnar
+                  document representation, page-level compression, and compiler optimizations.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Exp 5 -->
+          <article class="timeline-card">
+            <div class="timeline-meta">
+              <div class="timeline-dates">2014 - 2017</div>
+              <div class="timeline-location">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+                <span>Riyadh & Boston</span>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <h3>Research Associate / Research Affiliate</h3>
+              <div class="timeline-org">KACST & MIT</div>
+              <div class="timeline-desc">
+                <p>Worked at the Center for Complex Engineering Systems (CCES) – a joint collaboration between KACST and
+                  the Institute for Data, Systems and Society (IDSS) at MIT. Designed big data analytics frameworks,
+                  including the open-source AsterixDB-Spark Connector, CityDynamics, and Integrated Transportation
+                  Systems.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Exp 6 -->
+          <article class="timeline-card">
+            <div class="timeline-meta">
+              <div class="timeline-dates">2008 - 2009</div>
+              <div class="timeline-location">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+                <span>Riyadh, Saudi Arabia</span>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <h3>Associate Software Engineer</h3>
+              <div class="timeline-org">Advanced Electronics Company (AEC)</div>
+              <div class="timeline-desc">
+                <p>Developed firmware and collection software connecting electric and water smart-meters to data
+                  collection networks for R&D projects (ADDAD4, Water Smart Meter).</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="section">
+        <h2 class="section-title">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5.18 11.5L12 15.22l6.82-3.72V15c0 1.66-3.05 3-6.82 3s-6.82-1.34-6.82-3v-3.5z" />
+          </svg>
+          <span>Education</span>
+        </h2>
+        <div class="timeline">
+
+          <!-- Edu 1 -->
+          <article class="timeline-card">
+            <div class="timeline-meta">
+              <div class="timeline-dates">2017 - 2022</div>
+              <div class="timeline-location">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+                <span>Irvine, CA, USA</span>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <h3>PhD, Computer Science</h3>
+              <div class="timeline-org">University of California, Irvine</div>
+              <div class="timeline-desc">
+                <p><strong>Thesis</strong>: Towards Analytics-optimized Document Stores</p>
+                <p><em>Supervisor</em>: <a href="https://www.ics.uci.edu/~mjcarey/" target="_blank">Michael J. Carey</a>
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Edu 2 -->
+          <article class="timeline-card">
+            <div class="timeline-meta">
+              <div class="timeline-dates">2011 - 2013</div>
+              <div class="timeline-location">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+                <span>Irvine, CA, USA</span>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <h3>MSc, Computer Science</h3>
+              <div class="timeline-org">University of California, Irvine</div>
+              <div class="timeline-desc">
+                <p><strong>Thesis</strong>: NUMA-aware Multicore Matrix Multiplication</p>
+                <p><em>Supervisor</em>: <a href="https://www.ics.uci.edu/~isaac/" target="_blank">Isaac D. Scherson</a>
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Edu 3 -->
+          <article class="timeline-card">
+            <div class="timeline-meta">
+              <div class="timeline-dates">2004 - 2008</div>
+              <div class="timeline-location">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+                <span>Riyadh, Saudi Arabia</span>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <h3>BSc, Computer Science</h3>
+              <div class="timeline-org">King Saud University</div>
+              <div class="timeline-desc">
+                <p>Graduated with a GPA of 4.55/5.0, earning Second Class Honors.</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Publications Section -->
+      <section id="publications" class="section">
+        <h2 class="section-title">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z" />
+          </svg>
+          <span>Publications</span>
+        </h2>
+        <div class="publications-list">
+
+          <!-- Pub 1 -->
+          <article class="pub-card">
+            <div class="pub-icon-wrapper">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+              </svg>
+            </div>
+            <div class="pub-content">
+              <p class="pub-authors">M. J. Carey, <strong>W. Alkowaileet</strong>, N. DiGeronimo, P. Gupta, S. Smotra &
+                T. Westmann.</p>
+              <h3 class="pub-title">Towards Principled, Practical Document Database Design</h3>
+              <div class="pub-venue">
+                <span>PVLDB, 18(12), 4804-4816, 2025</span>
+              </div>
+              <div class="pub-links">
+                <a href="https://www.vldb.org/pvldb/vol18/p4804-carey.pdf" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                  </svg>
+                  <span>Paper</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Pub 2 -->
+          <article class="pub-card">
+            <div class="pub-icon-wrapper">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+              </svg>
+            </div>
+            <div class="pub-content">
+              <p class="pub-authors">M. Al Hubail, A. Alsuliman, <strong>W. Alkowaileet</strong>, M. Blow, M. J. Carey,
+                S. Enukonda, P. Gupta, S. Hegde, K. Jagtiani, A. Jindal, M. N. Khan, M. Mahin, I. Maxon, M.
+                Muralikrishna, K. Murthy, D. Nagy, P. Poluparthi, A. Prabhu, R. Raj, V. Sarathy, S. Shirazi, U. Singh,
+                H. Towaileb, A. Tripathi, J. Tripurwar, B-C. Wang & T. Westmann.</p>
+              <h3 class="pub-title">Cloudy With a Chance of JSON</h3>
+              <div class="pub-venue">
+                <span>PVLDB, 18(12), 4938-4950, 2025</span>
+              </div>
+              <div class="pub-links">
+                <a href="https://www.vldb.org/pvldb/vol18/p4938-alhubail.pdf" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                  </svg>
+                  <span>Paper</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Pub 3 -->
+          <article class="pub-card">
+            <div class="pub-icon-wrapper">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+              </svg>
+            </div>
+            <div class="pub-content">
+              <p class="pub-authors"><strong>W. Alkowaileet</strong> & M. J. Carey.</p>
+              <h3 class="pub-title">Columnar Formats for Schemaless LSM-based Document Stores</h3>
+              <div class="pub-venue">
+                <span>PVLDB, 15(10), 2085-2097, 2022</span>
+              </div>
+              <div class="pub-links">
+                <a href="https://www.vldb.org/pvldb/vol15/p2085-alkowaileet.pdf" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                  </svg>
+                  <span>Paper</span>
+                </a>
+                <a href="https://arxiv.org/abs/2111.11517" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                  </svg>
+                  <span>Extended Version</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Pub 4 -->
+          <article class="pub-card">
+            <div class="pub-icon-wrapper">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+              </svg>
+            </div>
+            <div class="pub-content">
+              <p class="pub-authors"><strong>W. Alkowaileet</strong>, S. Alsubaiee & M. J. Carey.</p>
+              <h3 class="pub-title">An LSM-based Tuple Compaction Framework for Apache AsterixDB</h3>
+              <div class="pub-venue">
+                <span>PVLDB, 13(9), 1388-1400, 2020</span>
+              </div>
+              <div class="pub-links">
+                <a href="http://www.vldb.org/pvldb/vol13/p1388-alkowaileet.pdf" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                  </svg>
+                  <span>Paper</span>
+                </a>
+                <a href="https://arxiv.org/abs/1910.08185" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                  </svg>
+                  <span>Extended Version</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Pub 5 -->
+          <article class="pub-card">
+            <div class="pub-icon-wrapper">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+              </svg>
+            </div>
+            <div class="pub-content">
+              <p class="pub-authors"><strong>W. Alkowaileet</strong>, S. Alsubaiee, M. J. Carey, C. Li, P. Sinthong & W.
+                Wang.</p>
+              <h3 class="pub-title">End-to-End Machine Learning with Apache AsterixDB</h3>
+              <div class="pub-venue">
+                <span>In Proceedings of the Second Workshop on Data Management for End-To-End Machine Learning,
+                  2018</span>
+              </div>
+              <div class="pub-links">
+                <a href="https://chenli.ics.uci.edu/files/deem2018-paper.pdf" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                  </svg>
+                  <span>Paper</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Pub 6 -->
+          <article class="pub-card">
+            <div class="pub-icon-wrapper">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+              </svg>
+            </div>
+            <div class="pub-content">
+              <p class="pub-authors"><strong>W. Alkowaileet</strong>, S. Alsubaiee, M. J. Carey, T. Westmann & Y. Bu.
+              </p>
+              <h3 class="pub-title">Large-scale Complex Analytics on Semi-structured Datasets using AsterixDB and Spark
+              </h3>
+              <div class="pub-venue">
+                <span>PVLDB, 9(13), 1585-1588, 2016 (Demo)</span>
+              </div>
+              <div class="pub-links">
+                <a href="http://www.vldb.org/pvldb/vol9/p1585-alkowaileet.pdf" target="_blank" class="pub-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                  </svg>
+                  <span>Paper</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Pub 7 -->
+          <article class="pub-card">
+            <div class="pub-icon-wrapper">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+              </svg>
+            </div>
+            <div class="pub-content">
+              <p class="pub-authors"><strong>W. Alkowaileet</strong>, D. Carrillo-Cisneros, D. Lim & I. D. Scherson.</p>
+              <h3 class="pub-title">NUMA-aware Multicore Matrix Multiplication</h3>
+              <div class="pub-venue">
+                <span>Parallel Processing Letters, 24(04), 1450006, 2014</span>
+              </div>
+              <div class="pub-links">
+                <a href="http://editorial.worldscinet.com/ppl/editorial/paper/903437.pdf" target="_blank"
+                  class="pub-link">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                  </svg>
+                  <span>Paper</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <h2 class="section-title">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z" />
+          </svg>
+          <span>Research Projects</span>
+        </h2>
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-img-container">
+              <img class="project-img" src="images/compaction.png" alt="LSM-based Tuple Compaction">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">LSM-based Tuple Compaction Framework</h3>
+              <p class="project-desc">
+                Proposed a new mechanism to leverage Log-Structured Merge (LSM) lifecycle events to automatically infer
+                schema and semantically compact self-describing semi-structured records. Implemented in Apache AsterixDB
+                along with page-level compression, achieving a 9.8x reduction in storage size and query speedups of the
+                same factor.
+              </p>
+              <div class="project-links">
+                <a href="https://arxiv.org/abs/1910.08185" target="_blank" class="btn-pill">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                  </svg>
+                  <span>Extended Paper</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-img-container">
+              <img class="project-img" src="images/columnar.png" alt="Columnar Formats for Document Stores">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Columnar Formats for Schemaless LSM Document Stores</h3>
+              <p class="project-desc">
+                Extended the Dremel columnar format to support document stores' flexible, nested data model. Designed
+                and implemented two layouts for organizing and storing schemaless data in LSM-based storage systems,
+                optimizing query scans over nested, sparse document fields.
+              </p>
+              <div class="project-links">
+                <a href="https://arxiv.org/abs/2111.11517" target="_blank" class="btn-pill">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                  </svg>
+                  <span>Extended Paper</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-img-container">
+              <img class="project-img" src="images/codegen.png" alt="Code Generation using Truffle">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Code Generation for Schema-on-Read Databases</h3>
+              <p class="project-desc">
+                Explored runtime query compilation techniques for document stores where value types are unknown until
+                query time. Leveraged Oracle Truffle to compile execution sub-trees in a Java-based document store,
+                showing major speedups over standard vectorized batch processing models.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Awards Section -->
+      <section id="awards" class="section">
+        <h2 class="section-title">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v3c0 2.24 1.55 4.15 3.61 4.68C7.5 16.27 10 18 10 18v3h4v-3s2.5-1.73 3.39-3.32C19.45 14.15 21 12.24 21 10V7c0-1.1-.9-2-2-2zm-14 5V7h2v3c0 1.48-1.07 2.71-2 3v-3zm14 0c-.93-.29-2-1.52-2-3V7h2v3z" />
+          </svg>
+          <span>Awards & Fellowships</span>
+        </h2>
+        <div class="awards-grid">
+
+          <!-- Award 1 -->
+          <article class="award-card">
+            <div class="award-icon-wrapper">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z" />
+              </svg>
+            </div>
+            <div class="award-content">
+              <div class="award-dates">2017 - 2022</div>
+              <h3 class="award-title">Ph.D. Graduate Fellowship</h3>
+              <p class="award-desc">Awarded full graduate scholarship from the King Abdulaziz City for Science and
+                Technology (KACST) for Ph.D. studies at UC Irvine.</p>
+            </div>
+          </article>
+
+          <!-- Award 2 -->
+          <article class="award-card">
+            <div class="award-icon-wrapper">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z" />
+              </svg>
+            </div>
+            <div class="award-content">
+              <div class="award-dates">2010 - 2013</div>
+              <h3 class="award-title">M.Sc. Graduate Fellowship</h3>
+              <p class="award-desc">Awarded full graduate scholarship from King Abdullah Scholarship Program for M.Sc.
+                studies at UC Irvine.</p>
+            </div>
+          </article>
+
+          <!-- Award 3 -->
+          <article class="award-card">
+            <div class="award-icon-wrapper">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z" />
+              </svg>
+            </div>
+            <div class="award-content">
+              <div class="award-dates">2004 - 2008</div>
+              <h3 class="award-title">Second Class Honors</h3>
+              <p class="award-desc">Awarded Second Class Honor for outstanding academic performance and high GPA at King
+                Saud University.</p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- Smooth Scrolling & Active State Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const navLinks = document.querySelectorAll('.nav-link');
+      const sections = document.querySelectorAll('.section');
+
+      // Update Active Link on Scroll
+      window.addEventListener('scroll', () => {
+        let currentSectionId = '';
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          // Offset of 120px to trigger the state change slightly early
+          if (pageYOffset >= sectionTop - 120) {
+            currentSectionId = section.getAttribute('id');
+          }
+        });
+
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === `#${currentSectionId}`) {
+            link.classList.add('active');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
